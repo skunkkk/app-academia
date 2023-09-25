@@ -1,0 +1,92 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: #0b2447;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .logo{
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: 65vw;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 1rem;
+  
+  }
+  
+  .fotoLogo{
+   height: 100%;
+   width: 40%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-bottom: 1rem;
+  }
+  
+  .textoLogo{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+  
+  }
+  
+  .edu{
+    margin-top: 4rem;
+    width: 175vw;
+    opacity: 0.6;
+  }
+  
+  .botao{
+   z-index: 1;
+   position: absolute;
+    margin-top: 33rem;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .button-32 {
+    background-color: #ffee00bd;
+    border-radius: 12px;
+    color: #FAFAFA;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-32:not(:disabled):hover,
+  .button-32:not(:disabled):focus {
+    outline: 0;
+    background: #f4e803c2;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+  }
+  
+  .button-32:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+  }

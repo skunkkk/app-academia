@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Libre+Franklin:ital,wght@1,500&family=Poppins:wght@200&display=swap');
+
+
+.container-login {
+    height: 100vh;
+    width: 100vw;
+    background: #0b2447;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo{
+    margin-top: 0.7rem;
+    margin-left: -7rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: 65vw;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 1rem;
+  
+  }
+  
+  .fotoLogo{
+   height: 100%;
+   width: 40%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-bottom: 1rem;
+  }
+  
+  .textoLogo{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+  
+  }
+
+  .box-login{
+    width: 80vw;
+    height: 50vh;
+    border: 1px solid #ffd411;
+    border-radius: 1.3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  h1{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #FAFAFA;
+  }
+
+  .input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffd411;
+    height: 2.2rem;
+    width: 70vw;
+  }
+
